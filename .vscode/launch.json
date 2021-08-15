@@ -1,0 +1,23 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "dev",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            "program": "${workspaceFolder}/src/Acme.BookStore.HttpApi.Host/bin/Debug/net5.0/Acme.BookStore.HttpApi.Host.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/src/Acme.BookStore.HttpApi.Host",
+            "stopAtEntry": false,
+            "console": "internalConsole",
+            "env": {
+              "ASPNETCORE_ENVIRONMENT": "Development",
+              "ASPNETCORE_URLS": "http://localhost:44309/"
+            },
+        }
+    ]
+}
